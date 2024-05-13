@@ -1,0 +1,175 @@
+/***************************/
+/* HERO SECTION */
+/**************************/
+
+.section-hero {
+  padding: 12.8rem 0 9.6rem 0;
+}
+
+.hero-text {
+  font-size: 1.8rem;
+  max-width: 55ch;
+  margin: 0 auto;
+}
+.logo,
+.hero-text {
+  margin-bottom: 4.8rem;
+}
+
+/***************************/
+/* ADVANTAGES SECTION */
+/**************************/
+
+.section-advantages {
+  padding: 4.8rem 0 9.6rem 0;
+}
+
+.mac-img {
+  width: 85%;
+}
+
+.advantages-text-box {
+  display: flex;
+  flex-direction: column;
+  margin-top: 8rem;
+  gap: 5.2rem;
+}
+
+.advantages-text {
+  color: hsl(201, 11%, 66%);
+  font-size: 1.6rem;
+  max-width: 35ch;
+  line-height: 1.8;
+}
+
+/***************************/
+/* ACCESS SECTION */
+/**************************/
+
+.section-access {
+  padding: 4.8rem 0 9.6rem 0;
+}
+
+.under-heading-text {
+  font-size: 1.6rem;
+  width: 60ch;
+  margin: 0 auto;
+  margin-bottom: 8rem;
+}
+
+.image-devices {
+  width: 70%;
+}
+
+/***************************/
+/* TOOLS SECTION */
+/**************************/
+
+.section-tools {
+  padding: 4.8rem 0 9.6rem 0;
+}
+
+.tools {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 3.2rem;
+}
+
+.tool {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1.2rem;
+}
+
+.tool-icon {
+  width: 4.8rem;
+  height: 4.8rem;
+  margin-bottom: 3.2rem;
+  object-fit: contain;
+}
+
+.tool-text {
+  font-size: 1.6rem;
+  max-width: 34ch;
+  text-align: center;
+}
+
+/***************************/
+/* FEATURED IN SECTION */
+/**************************/
+
+.section-featured {
+  padding: 4.8rem 0 9.6rem 0;
+}
+.logos {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logos img {
+  filter: brightness(0%);
+  opacity: 50%;
+}
+
+/***************************/
+/* DOWNLOAD SECTION */
+/**************************/
+
+.section-download {
+  padding: 4.8rem 0 9.6rem 0;
+}
+
+/***************************/
+/* FOOTER SECTION */
+/**************************/
+
+.footer {
+  padding: 4.8rem 0;
+  background-color: rgba(159, 171, 178, 0.2);
+}
+
+.footer-container {
+  max-width: 120rem;
+  margin: 0 auto;
+}
+
+.footer li {
+  list-style: none;
+}
+
+.grid--footer {
+  grid-template-columns: 1.5fr 1fr 1fr 1fr 1.5fr;
+}
+
+.logo--footer {
+  width: 6.4rem;
+}
+
+.footer-nav {
+  display: flex;
+  flex-direction: column;
+  gap: 2.4rem;
+}
+
+.footer-link:link,
+.footer-link:visited {
+  text-decoration: none;
+  font-size: 1.6rem;
+  color: #767676;
+  transition: all 0.3s;
+}
+
+.footer-link:hover,
+.footer-link:active {
+  color: #555;
+}
+
+.social-links {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 2.4rem;
+}
